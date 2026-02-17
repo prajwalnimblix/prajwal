@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prajwal Portfolio</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background: blue;
+      color: #333;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      line-height: 1.2;
+    }
+
+    header p,
+    header h1,
+    header h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px; 
+    font-weight: normal;
+    }
+
+    nav {
+      background: #555;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      padding: 40px;
+      margin: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: green;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: red;
+    }
+
+    header img {
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="prajwal-photo.jpeg" width="150" height="150">
+    <p>Java Developer</p>
+    <h1>Prajwal S R</h1>
+    <h3>📧prajwalnimblix@gmail.com</h3>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Technical Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Motivated and detail-oriented Information Science and Engineering student with a strong foundation in Java development, 
+      object-oriented programming, and web technologies. Seeking an entry-level Java Developer role to apply my skills, contribute
+      to software development projects, and grow as a professional developer.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><b>Programming Languages:</b>Java</li>
+      <li><b>Web Technologies:</b>HTML, CSS, JavaScript</li>
+      <li><b>Database:</b>MySQL</li>
+      <li><b>Version Control:</b>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Resume Upload System</h3>
+        <p>Led the development of a user interface for file uploads, ensuring an intuitive and user-friendly experience.
+        Implemented robust file validation and processing mechanisms to handle various file types securely.
+        Established secure storage solutions to protect sensitive data and ensure compliance with data security
+        regulations</p>
+      </div>
+
+      <div class="project-card">
+        <h3> Railway Management System</h3>
+        <p> Developed a comprehensive ticketing and reservation system to streamline passenger bookings.
+        Managed train schedules and operations, optimizing routes and reducing delays through efficient scheduling</p>
+      </div>
+
+      <div class="project-card">
+        <h3> Data Visualization Tool</h3>
+        <p>Developed a web application using Flask and Plotly to enable users to upload CSV files and generate
+        interactive charts.Implemented key functionalities including file upload, data parsing, and chart customization
+        for intuitive data analysis.
+        Ensured efficient performance with large datasets to democratize data visualization and make it accessible to
+        a broader audience.</p>
+      </div>
+    </div>
+  </section>
+
+    
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+<ul>
+  <li>
+    <b>BMS Institute Of Technology and Management, Bengaluru</b><br>
+    Bachelor of Engineering in Information Science and Engineering<br>
+    2023 – 2025 | CGPA: 7.82 / 10
+  </li>
+
+  <li>
+    <b>VISSJ Government Polytechnic, Bhadravathi</b><br>
+    Diploma in Information Science and Engineering<br>
+    2019 – 2022 | Percentage: 70%
+  </li>
+
+  <li>
+    <b>Shree Manjunatha Higher Primary School, Marashettihalli</b><br>
+    Class X (SSLC)<br>
+    2019 | Percentage: 80.48%
+  </li>
+</ul>
+  </section>
+
+   <section id="certifications">
+    <h2>Certifications</h2>
+    <li><b>Emberquest Pvt Ltd</b></li>
+    <li><b>GTTC Intern</b></li>
+    <li><b>Exposys Data Labs</b></li>
+    </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: prajwalnimblix@gmail.com</p>
+    <p>Phone: +91 9980232551</p>
+    <button onclick="showMessage()">Click Me</button>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Prajwal S R | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Thank you for visiting my portfolio!");
+    }
+  </script>
+
+</body>
+</html>
